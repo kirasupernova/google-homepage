@@ -2,17 +2,28 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
+        <ul id="navbar">
+            <li><a href="">Gmail</a></li>
+            <li><a href="">Images</a></li>
+            <li><a href=""><span class="material-icons" id="apps" >apps</span></a></li>
+            <li><a href=""><div class="circle">K</div></a></li>
+        </ul>
     </header>
     <main>
-        <img src="images/googlelogo_color_272x92dp.png" alt="Google">
+        <img id="logo" src="images/googlelogo_color_272x92dp.png" alt="Google">
         <form class="searchbar">
-            <label for="search"><img id="searchglass" src="images/Daco_1098162.png" alt="Google"></label>
-            <input type="text" name="search" id="searchbar" required>
-            <input type="submit" value="Search">
-            <input type="submit" value="I'm Feeling Lucky!">
+            <div id="searchbar"><label for="search"><span class="material-icons">search</span></label>
+            <input type="text" name="search" required></div>
+            <div id="searchbuttons"><input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky!"></div>
         </form>
         <p>Google offered in: <a href="https://www.google.com/setprefs?sig=0_stzMOZLA4HA9TiilTxwhpTBmhs0%3D&hl=mi&source=homepage&sa=X&ved=0ahUKEwjIvpiUuq_xAhW8zDgGHbpiCbUQ2ZgBCA0">Maori</a> </p>
     </main>
