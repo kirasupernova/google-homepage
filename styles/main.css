@@ -91,6 +91,10 @@ body {
     justify-content: space-evenly;
 }
 
+#searchbar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
 input[type=text] {
     border: 0;
     margin: 10px;
